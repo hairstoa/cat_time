@@ -15,7 +15,7 @@ rustc --version
 ```
 3) If it doesn't exist, please consult your package manager of choice, then proceed.
 
-4) In the project direct test:
+4) In the project directory test:
 ```
 cargo run
 ```
