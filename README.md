@@ -17,7 +17,7 @@ rustc --version
 cargo run
 ```
 
-# For EXTRA Fun
+### For EXTRA Fun
 1) Create a recurring schedule for the cat clock to run
 ```
 crontab -l
