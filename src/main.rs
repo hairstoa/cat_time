@@ -16,7 +16,7 @@ fn main() {
     let choices = paths.count();
 
     let mut rng = rand::thread_rng();
-    let mut num =  rng.gen_range(0..(choices+1));
+    let num =  rng.gen_range(0..(choices+1));
 
     let sound_bite = format!("{}meow_{}.mp3", pathname, num);
 
@@ -27,7 +27,7 @@ fn main() {
     // Decode that sound file into a source
     let source = Decoder::new(file).unwrap();
     // Play the sound directly on the device
-    stream_handle.play_raw(source.convert_samples());
+    stream_handle.play_raw(source.convert_samples()).expect("could not play sound");
     
     // The sound plays in a separate audio thread,
     // so we need to keep the main thread alive while it's playing.
