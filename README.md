@@ -27,5 +27,5 @@ crontab -l
 ```
 2) Here is my recommendation for an office clock:
 ```
-0 9-17 * * 1-5 cargo run
+0 9-17 * * 1-5 cat_time
 ```
