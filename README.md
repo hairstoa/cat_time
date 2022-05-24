@@ -9,13 +9,13 @@ For more fun, cron suggestion provided to make it into an office hourly alarm.
 ## To Run
 1) Download files.
 
-2.a) Check the version of Rust with:
+2) Check the version of Rust with:
 ```
 rustc --version
 ```
-2.b) If it doesn't exist, please consult your package manager of choice, then proceed.
+3) If it doesn't exist, please consult your package manager of choice, then proceed.
 
-3) In the project direct test:
+4) In the project direct test:
 ```
 cargo run
 ```
