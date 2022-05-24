@@ -2,17 +2,20 @@
 The meowing of cats reminds us that life is fleeting. 
 
 ## Functionality
-The program will play a random cat sound from a folder containing meow_x.mp3s. 
+The program will play a random cat sound from a folder containing meow_x.mp3s.
+
 For more fun, cron suggestion provided to make it into an office hourly alarm. 
 
 ## To Run
-4) Download files.
-5.a) Check your version of Rust with:
+1) Download files.
+
+2.a) Check your version of Rust with:
 ```
 rustc --version
 ```
-5.b)If it doesn't exist, please consult your package manager of choice, then proceed.
-6) In the project direct test:
+2.b)If it doesn't exist, please consult your package manager of choice, then proceed.
+
+3) In the project direct test:
 ```
 cargo run
 ```
